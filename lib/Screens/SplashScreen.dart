@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
-  SplashScreenState createState() => new SplashScreenState();
+  SplashScreenState createState() => SplashScreenState();
 }
 
 class SplashScreenState extends State<SplashScreen>
@@ -22,7 +22,7 @@ class SplashScreenState extends State<SplashScreen>
   }
 
   void navigationPage() {
-    Navigator.of(context).pushReplacementNamed(PROFILE);
+    Navigator.of(context).pushReplacementNamed(AUTH_PAGE);
   }
 
   @override

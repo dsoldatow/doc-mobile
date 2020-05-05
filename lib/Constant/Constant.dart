@@ -1,3 +1,10 @@
-String ANIMATED_SPLASH = '/SplashScreen',
-    PROFILE = '/ProfilePage',
-    LOGIN_SCREEN = '/LoginScreen';
+const String ANIMATED_SPLASH = '/SplashScreen',
+    PROFILE_PAGE = '/ProfilePage',
+    SEARCH_PAGE = '/SearchPage',
+    AUTH_PAGE = '/AuthPage',
+    REG_PAGE = '/RegisterPage',
+    HOME_PAGE = '/HomePage',
+    API_URL = 'http://95.217.183.87:80',
+    SIGN_IN_ENDPOINT = '/auth/sign_in',
+    SIGN_UP_ENDPOINT = '/auth/sign_up',
+    USER_ENDPOINT = '/profile/';
